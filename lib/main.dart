@@ -24,7 +24,7 @@ class BombTime extends StatelessWidget {
     return ScreenUtilInit(
       builder: (_, __) {
         return GetMaterialApp(
-          title: 'Bomb_time',
+          title: 'Bomb Math',
           debugShowCheckedModeBanner: false,
           theme: Themes().darkTheme,
           darkTheme: Themes().darkTheme,
