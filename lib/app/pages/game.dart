@@ -49,7 +49,7 @@ class GamePage extends GetView<MathGameController> {
                     _mathTextProblem(),
                     const HeightBoxesItems.heightFifty(),
                     LottieAssetManager(
-                      width: Get.width / 1.8,
+                      width: Get.width / 2.5,
                       animationController: controller.animationController,
                       repeat: false,
                       lottiePath: LottieItems.bomb.lottiePath,
@@ -72,7 +72,7 @@ class GamePage extends GetView<MathGameController> {
                             icon: const Icon(Icons.cancel_outlined)),
                       ),
                     ),
-                    const HeightBoxesItems.heightFifteen(),
+                    const HeightBoxesItems.heightTen(),
                     GridView.builder(
                       physics: const NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
